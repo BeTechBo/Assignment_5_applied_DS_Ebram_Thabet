@@ -175,7 +175,7 @@ double diff_dash = vector_of_nodes_for_max_sub[j+1].value- vector_of_nodes_for_m
 differences.push_back(diff_dash);
 }
 
-cout << "\nThe period of maximum increasing is between " << vector_of_nodes_for_max_sub[start].date << " and " << vector_of_nodes_for_max_sub[end+1].date << " and the value of this change is " << maxSubsequenceSum(differences , start , end)<< endl; 
+cout << "The value of the greatest change is "<<  maxSubsequenceSum(differences , start , end)<<"\nand the period of maximum increasing is between " << vector_of_nodes_for_max_sub[start].date << " and " << vector_of_nodes_for_max_sub[end+1].date << endl; 
 cout << "\nMax values: \n";
 
 // getting the greatest 10 exchange rates
